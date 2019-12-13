@@ -1,0 +1,2 @@
+retcodes to Qt cases:
+sed 's/\(0x[0-9A-F]*\)\t\(.*\)/case \1: return tr("\2");/g' return_codes.txt 

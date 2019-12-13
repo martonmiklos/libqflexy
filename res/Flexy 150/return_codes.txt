@@ -1,0 +1,67 @@
+0x00000000	Operation done
+0x00050002	Report warning limit reached, less then 60 financial Z reports are available
+0x0006000B	Wrong parameter value
+0x010A001A	Journal warning limit. Journal used on 80%.
+0x010A001B	Journal warning limit. Journal used on 95%.
+0x80010002	Record ID is out of range
+0x80020005	Missing parameter
+0x80040006	Purchase is full, end receipt
+0x80040009	No such item
+0x8004000B	The last possible payment does not settle retail transaction, realize last payment
+0x8004000E	Value adjustment limit
+0x8004000F	Percent adjustment limit
+0x80040010	Zero or negative value of subtotal - at subtotal adjust operation
+0x80040011	Price already adjusted
+0x80040012	Not adjustable item
+0x80040013	Quantity1 is out of range
+0x80040014	Quantity2 is out of range
+0x80040015	Total quantity (q1 * q2) is out of range
+0x80040016	Invalid quantity
+0x80040017	Unit price is out of range
+0x80040018	Invalid unit price
+0x80040019	Purchase is in payment
+0x8004001C	Not enough currency
+0x8004001E	Sale impossible inactive PLU
+0x8004001F	Unit price change is not allowed
+0x80040020	Item not found
+0x80040021	Zero total price of PLU
+0x80040022	No sale yet
+0x80040023	Operation is not possible in this state
+0x80040025	Selected item is not returnable container
+0x80040026	Link PLU is not returnable container
+0x80040028	Illegal tender
+0x80040030	Item void is not allowed by reason of subtotal adjustment
+0x8004003A	Void of descriptive PLU is not allowed
+0x8004003B	Sale of descriptive PLU is not allowed
+0x8004003C	Bad tender value
+0x8004003F	Invalid quantity1 value
+0x80040040	Invalid quantity2 value
+0x80040041	Invalid payment value
+0x80040042	Too large payment value
+0x80040043	Change too large
+0x80040044	No item in the purchase
+0x80040049	Not enough foreign currency
+0x8005000A	Unable to execute daily report, report already done
+0x8005000B	Unable to execute monthly report, no daily report was done
+0x8005000C	Unable to execute monthly report, report already done
+0x8005000E	Autoexport txt journal error
+0x80060007	Unknown record
+0x80060009	Unsupported table
+0x8006000A	Unknown record attribute
+0x8006000C	Value cannot be set (read-only attribute or the change requirements are not fulfilled )
+0x80060012	Value cannot be set daily report required
+0x80060013	Value cannot be set, monthly report required
+0x80060014	Operation cannot be executed (requirements are not fulfilled)
+0x80060018	Value cannot be set, bar code duplicity
+0x80060019	Unsupported or bad record value
+0x8006001A	No graphic logo
+0x8006001B	Header was not set
+0x80070007	Unsupported operation
+0x80070009	ECR is busy
+0x8007000A	Connection refused
+0x8101006A	Illegal or unsupported operation, or invalid parameter value
+0x810100C9	Cover is open
+0x810100CA	Missing journal paper
+0x810100CB	Missing receipt paper
+0x810100D8	Receipt total overflow
+0x810100DC	Negative total (in one tax group at least) – in the case of first payment

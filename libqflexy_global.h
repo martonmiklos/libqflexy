@@ -1,0 +1,12 @@
+#ifndef LIBQFLEXY_GLOBAL_H
+#define LIBQFLEXY_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(LIBQFLEXY_LIBRARY)
+#  define LIBQFLEXYSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define LIBQFLEXYSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // LIBQFLEXY_GLOBAL_H
